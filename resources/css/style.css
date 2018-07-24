@@ -1,3 +1,29 @@
+/*header*/
+header .desktop {
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 24px;
+}
+
+header .logo span {
+    height: 32px;
+    align-self: center;
+}
+
+header ul li {
+    list-style-type: none;
+    padding: 8px;
+}
+
+header.mobile {
+    display: none;
+}
+
+nav ul {
+    display: flex;
+}
 
 /*general*/
 .content {
@@ -32,38 +58,15 @@ video {
     padding-right: 24px;
 }
 
-/*header*/
-header .desktop {
-    height: 64px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 24px;
-}
-
-header .logo span {
-    height: 32px;
-    align-self: center;
-}
-
-header ul li {
-    list-style-type: none;
-    padding: 8px;
-}
-
-header.mobile {
-    display: none;
-}
-
-nav ul {
-    display: flex;
-}
-
 /*first section*/
 .first-section {
     display: flex;
     background-color: grey;
     align-items: center;
+}
+
+.first-section .text {
+    width: 60%;
 }
 
 .first-section .button {
@@ -74,10 +77,15 @@ nav ul {
     vertical-align: middle;
 }
 
+/*second section*/
+
+
 /*third section*/
 .third-section .content,
-.fourth-section .content {
+ .fourth-section .content,
+  .fourth-section .first-column {
     flex-direction: column;
+    display: flex;
 }
 
 .third-section h2,
@@ -105,4 +113,9 @@ nav ul {
 
 .third-section .info p {
     padding-top: 8px;
+}
+
+.fourth-section .layout {
+    display: flex;
+    flex-direction: row;
 }
