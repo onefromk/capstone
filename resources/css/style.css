@@ -55,7 +55,7 @@ nav ul {
 /*general*/
 .content {
     display: flex;
-    width: 960px;
+    width: 1024px;
     margin: auto;
     border-left: 1px solid grey;
     border-right: 1px solid grey;
@@ -64,7 +64,7 @@ nav ul {
 
 .first-column {
     padding: 32px 24px;
-    padding-left: 0px;git 
+    padding-left: 0px;
     width: 60%;
 }
 
