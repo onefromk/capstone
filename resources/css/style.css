@@ -59,7 +59,6 @@ ul li {
     list-style-type: none;
     padding: 8px;
     margin: 0px;
-    font-size: 16px;
 }
 
 header .mobile,
@@ -128,15 +127,14 @@ img, video {
 }
 
 /*first section*/
-#first-section .content,
-#third-section-desktop .content {
+#first-section .content {
     display: flex;
     background-color: #D8D8D8;
 }
 
 #first-section .text {
-    margin-top: 115px;
-    width: 74%;
+    margin-top: 75px;
+    width: 80%;
     padding-left: 24px;
 }
 
@@ -155,7 +153,7 @@ img, video {
 #first-section .button {
     color: white;
     background-color: #505050;
-    padding: 8px 0;
+    padding: 8px 0px;
     text-align: center;
     vertical-align: middle;
     margin-top: 32px;
@@ -176,17 +174,17 @@ img, video {
 }
 
 #second-section-desktop .content .second-column {
-    border-left: 1px solid #D8D8D8;
+    border-left: 1px solid #F5F5F5;
 }
 
 #second-section-desktop .second-column .small-sections.orientation {
-    border-bottom: 1px solid #D8D8D8;
+    border-bottom: 1px solid #F5F5F5;
     margin-bottom: 1px;
     padding-top: 16px;
 }
 
 #second-section-desktop .second-column .small-sections.campus {
-    border-top: 1px solid #D8D8D8;
+    border-top: 1px solid #F5F5F5;
 }
 
 #second-section-desktop h2 {
@@ -204,6 +202,11 @@ img, video {
 #fourth-section .first-column {
     flex-direction: column;
     display: flex;
+}
+
+#third-section-desktop .content {
+    display: flex;
+    background-color: #F5F5F5;
 }
 
 #third-section-desktop .content .picture-grid {
@@ -245,7 +248,7 @@ img, video {
 /*footer*/
 footer .content {
     justify-content: space-between;
-    border-top: 1px solid #D8D8D8;
+    border-top: 1px solid #F5F5F5;
 }
 
 footer .privacy {
