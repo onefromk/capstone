@@ -13,6 +13,11 @@ h1 {
     font-weight: 750;
 }
 
+a:link {
+    text-decoration: none;
+    color: 33CCFF;
+}
+
 /*header*/
 header .desktop {
     height: 64px;
@@ -66,7 +71,7 @@ header .mobile,
 /*general*/
 .content {
     display: flex;
-    width: 1024px;
+    width: 960px;
     margin: auto;
     border-left: 1px solid lightgrey;
     border-right: 1px solid lightgrey;
@@ -160,6 +165,10 @@ img, video {
 #second-section-desktop .first-column .quote {
     font-size: 12px;
     padding-top: 32px;
+}
+
+#second-section-desktop h1 {
+    padding-bottom: 24px;
 }
 
 #second-section-desktop .info {
